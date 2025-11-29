@@ -1,5 +1,5 @@
 /* ESTILOS PARA LAS TARJETAS*/
-/* Estilo para la tarjeta completa del libro */
+/* ESTILOS DE LAS TARJETAS DE LIBRO */
 .libro-recomendado {
     width: 280px;
     background-color: antiquewhite;
@@ -48,4 +48,11 @@
 /* Efecto al pasar el ratón sobre el botón */
 .boton1:hover {
     background-color: brown;
+}
+
+/* ESTILOS GENERALES Y BASE */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FDFDFB; /* Un blanco roto muy sutil para el fondo */
+    color: #5C4033; /* Un marrón oscuro para el texto principal */
 }
