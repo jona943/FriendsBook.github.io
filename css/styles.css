@@ -50,11 +50,6 @@
     background-color: brown;
 }
 
-
-
-
-
-
 /* ESTILOS GENERALES Y BASE */
 body {
     font-family: Arial, sans-serif;
@@ -73,4 +68,20 @@ h1, h2 {
 /* El box-sizing border-box es crucial para que el padding y el border no sumen al ancho/alto total de los elementos */
 * {
     box-sizing: border-box;
+}
+
+/* ESTILOS DEL ENCABEZADO */
+.barra-nav {
+    background-color: #D2B48C; /* Un color café claro y cálido */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barra-nav ul li a {
+    color: #5C4033; /* El mismo color marrón oscuro que usamos para el texto principal */
+    text-decoration: none; /* Quita el subrayado predeterminado de los enlaces */
+    margin-left: 20px; /* Añade un espacio a la izquierda de cada elemento del menú */
+    font-weight: bold; /* Hace que el texto de los enlaces de navegación sea más grueso */
 }
